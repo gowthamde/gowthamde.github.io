@@ -9,6 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
 import { SkillsetSectionComponent } from './skillset-section/skillset-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { ProjectSectionComponent } from './project-section/project-section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
     NavBarComponent,
     AboutSectionComponent,
     SkillsetSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    ProjectSectionComponent
   ],
   imports: [
     BrowserModule,
