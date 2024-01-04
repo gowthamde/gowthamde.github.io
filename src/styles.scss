@@ -47,6 +47,11 @@ p {
     .contactSectionBody {
         margin: 2rem 2rem !important;
     }
+
+    .profile-picture {
+        width: 250px !important;
+        height: 250px !important;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -72,6 +77,10 @@ p {
     .contactSectionBody {
         margin: 2rem 2rem !important;
     }
+    .profile-picture {
+        width: 250px !important;
+        height: 250px !important;
+    }
 }
 
 @media only screen and (min-width: 450px) {
@@ -95,6 +104,10 @@ p {
     }
     .contactSectionBody {
         margin: 2rem 3rem !important;
+    }
+    .profile-picture {
+        width: 300px !important;
+        height: 300px !important;
     }
 }
 
@@ -121,6 +134,10 @@ p {
     .contactSectionBody {
         margin: 2rem 4rem !important;
     }
+    .profile-picture {
+        width: 320px !important;
+        height: 320px !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -146,6 +163,10 @@ p {
     .contactSectionBody {
         margin: 2rem 6rem !important;
     }
+    .profile-picture {
+        width: 330px !important;
+        height: 330px !important;
+    }
 }
 
 @media only screen and (min-width: 860px) {
@@ -169,6 +190,10 @@ p {
     }
     .contactSectionBody {
         margin: 2rem 12rem !important;
+    }
+    .profile-picture {
+        width: 350px !important;
+        height: 350px !important;
     }
 }
 
@@ -196,6 +221,10 @@ p {
     .contactSectionBody {
         margin: 2rem 12rem !important;
     }
+    .profile-picture {
+        width: 350px !important;
+        height: 350px !important;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -214,5 +243,9 @@ p {
     }
     .contactSectionBody {
         margin: 2rem 12rem !important;
+    }
+    .profile-picture {
+        width: 350px !important;
+        height: 350px !important;
     }
 }
