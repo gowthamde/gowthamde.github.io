@@ -26,6 +26,7 @@
     font-size: 20px;
     font-weight: bold;
     color: #555;
+    text-align: start;
 }
 
 .projectListContainer {
@@ -34,6 +35,7 @@
     flex-wrap: wrap;
     margin-top: 1rem;
     gap: 2rem;
+    justify-content: start;
 }
 
 .projectItem {
