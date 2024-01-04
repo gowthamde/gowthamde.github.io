@@ -1,0 +1,51 @@
+
+.contactSectionTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactTitle1 {
+    font-size: 16px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.contactTitle2 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contactSectionBody {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem 12rem;
+    padding: 0.5rem;
+}
+
+.contactLabelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.icon  {
+    width: 40px;
+    height: 40px;
+}
+
+.linkText {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 20px;
+    margin-top: -2px;
+}

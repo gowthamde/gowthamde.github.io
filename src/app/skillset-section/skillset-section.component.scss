@@ -1,0 +1,60 @@
+.skillset-section {
+    margin-bottom: 3rem;
+}
+
+.skillSetTitleSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skillTitle1 {
+    font-size: 16px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.skillTitle2 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.skillsetList {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #555;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skillItem {
+    padding: 1rem;
+    display: flex;
+    flex-basis: 29%;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.skillItemLabelBox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skillNameLabel {
+    font-weight: bold;
+}
+
+.skillNameExpLevel {
+    color:#555;
+}
+
+.skillIcon {
+    width: 32px;
+    height: 32px;
+    margin-top: -4px;
+}

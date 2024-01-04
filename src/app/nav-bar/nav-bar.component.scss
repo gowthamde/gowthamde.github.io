@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.userName {
+    letter-spacing: 1.5px;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    gap: 25px;
+    font-weight: 900;
+}
+
+.menu-item {
+    list-style-type: none;
+
+    >a {
+        color: unset;
+        text-decoration: unset;
+    }
+
+    a:hover {
+        color: grey;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color: rgb(181, 181, 181);
+    }
+}
