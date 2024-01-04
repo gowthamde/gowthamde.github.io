@@ -21,6 +21,7 @@
 .contactSectionBody {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -48,4 +49,14 @@
     text-decoration-color: white;
     font-size: 20px;
     margin-top: -2px;
+}
+
+.marginGap {
+    margin: 2rem 0rem;
+}
+
+.basedInLocationLabel {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
