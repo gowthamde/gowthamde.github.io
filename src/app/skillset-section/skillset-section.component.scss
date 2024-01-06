@@ -21,11 +21,14 @@
     letter-spacing: 2px;
 }
 
-.skillsetList {
+.skillContainer {
     margin-top: 1rem;
     padding: 1rem;
     border: 1px solid #555;
     border-radius: 15px;
+}
+.skillsetList {
+    
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -57,4 +60,11 @@
     width: 32px;
     height: 32px;
     margin-top: -4px;
+}
+
+.toolsListContainer {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }

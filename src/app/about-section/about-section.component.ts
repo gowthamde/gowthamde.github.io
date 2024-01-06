@@ -12,4 +12,10 @@ export class AboutSectionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  downloadCV(): void {
+    let link = document.createElement("a");
+    link.download = "Gowtham_Devaraj.pdf";
+    link.href = "../../assets/files/Gowtham_Devaraj.pdf";
+    link.click();
+  }
 }
