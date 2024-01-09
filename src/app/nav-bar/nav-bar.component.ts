@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,5 +12,8 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  scrollClick(id: string) {
+    $(window).scrollTop($(id).offset().top - 130);
+  }
 }

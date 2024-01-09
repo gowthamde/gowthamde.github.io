@@ -40,6 +40,7 @@
     letter-spacing: 1px;
     font-size: 24px;
     font-weight: bold;
+    color: #ff214f;
 }
 
 .aboutLine3 {
@@ -97,4 +98,8 @@
 .socialIcon {
     cursor: pointer;
     height: 2rem;
+}
+
+.socialIcon:hover {
+    transform: scale(1.2);
 }

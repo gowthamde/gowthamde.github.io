@@ -2,6 +2,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    color: #FFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 10000000000000;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    // background: #9795ff;
+    background: linear-gradient(to bottom right, #033146, #033146, #033146, #033146, #033146);
 }
 
 .userName {
@@ -20,16 +30,13 @@
 
 .menu-item {
     list-style-type: none;
-
-    >a {
-        color: unset;
-        text-decoration: unset;
-    }
-
-    a:hover {
-        color: grey;
-        text-decoration: underline;
-        text-underline-offset: 1rem;
-        text-decoration-color: rgb(181, 181, 181);
-    }
+}
+.menu-item:hover {
+    // color: grey;
+    // text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: #ffdb80;
+    color: #ffdb80;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    cursor: pointer;
 }
