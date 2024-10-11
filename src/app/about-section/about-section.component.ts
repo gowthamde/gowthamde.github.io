@@ -15,7 +15,7 @@ export class AboutSectionComponent implements OnInit {
   downloadCV(): void {
     let link = document.createElement("a");
     link.download = "Gowtham_Devaraj.pdf";
-    link.href = "../../assets/files/Gowtham_Devaraj.pdf";
+    link.href = "../../assets/Gowtham_Devaraj.pdf";
     link.click();
   }
 }
